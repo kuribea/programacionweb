@@ -1,0 +1,27 @@
+.fondo{
+    position: relative;
+    width: 1080px;
+    height: 624px;
+    
+    background: url(/imagenes/iuef.jpg);
+}
+
+
+.logoiue{
+    position: absolute;
+width: 312px;
+height: 192px;
+left: 1674px;
+top: 44px;
+
+background: url(LogoIUE.png);
+}
+.foto{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 582px;
+    top: 140px;
+
+background: url(FOTO.jpeg);
+}
