@@ -194,3 +194,34 @@ color:mediumblue;
     line-height: 39px;
     color: #000000;
 }
+.terminos{
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    left: 947px;
+    top: 920px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+.modelo{
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    left: 947px;
+    top: 976px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+
+}
