@@ -1,0 +1,25 @@
+.fondo{
+    width: 2060px;
+    height: 1450px;
+    left: 0px;
+    top: 6px;
+    background: url(/imagenes/1586326.jpg);
+    background-size: cover;
+    }
+.logoiue{
+    position: absolute;
+    width: 522px;
+    height: 265px;
+    left: 1491px;
+    top: 44px;
+    background: url(/imagenes/LogoIUE-removebg-preview\ \(1\).png);
+    }
+.foto{
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 524px;
+    top: 194px;
+    background: url(/imagenes/FOTO.jpeg);
+    border-radius: 360px;
+    }

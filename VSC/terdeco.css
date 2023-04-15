@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=DynaPuff&family=Sedgwick+Ave+Display&display=swap');
+.fondo{
+        background-color:black;
+        position: relative;
+        width: 1080px;
+        height: 624px;
+}
+.inter{
+        color: white;
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+}
+h2{
+        text-align: center;
+        color: aqua;
+}
+p{
+        color: pink;
+        text-align: center;
+
+}
+.logter{
+        position: absolute;
+width: 256px;
+height: 256px;
+left: 1122px;
+top: 44px;
+
+
+background: url(/imagenes/connected.png);
+}
