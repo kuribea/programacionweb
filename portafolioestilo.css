@@ -240,3 +240,18 @@ color: #000000;
     color: #000000;
 
 }
+.reto1{
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    left: 1489px;
+    top: 920px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
