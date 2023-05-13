@@ -1,0 +1,107 @@
+.fondo{
+    background:crimson;
+}
+
+.eje1{
+    margin: 50px auto;
+    max-width: 400px;
+    text-align: center;
+}
+input[type="text"], input[type="number"], button {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+button{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color:blueviolet;
+}
+
+
+
+h2{
+    text-align: center;
+  }
+label{
+    display: block;
+    margin-top: 20px;
+}  
+#inputs{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+#inputs input{
+    width: 30%;
+  } 
+#resultado2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+#resultado3{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+
+
+#resultado4{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+
+
+#resultado5{
+	margin-top: 20px;
+	font-size: 20px;
+}  
+
+
+
+#resultado6{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+  
+
+
+#resultado7{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+.eje8{
+    padding: 20px;
+}
+
+
+#resultado9{
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+
+
+.eje10 #resultado10 {
+    margin-top: 10px;
+}  
