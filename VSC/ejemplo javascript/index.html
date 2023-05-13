@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo</title>
+    <link rel="stylesheet" href="appdemo.css">
+</head>
+<body onload="llenarYear();">
+    <h1>Ejemplos JavaScript</h1>
+    <div class="caja">
+        <h2 id="titulo">Ejemplos Contador incrementar o decrementar con un click</h2>
+        <p id="para0" class="contador">Cualquier texto aca</p>
+        <button onclick="Contar();">Incrementar</button>
+        <button onclick="desContar();">Decrementar</button>
+    </div>
+    <div class="caja">
+        <h2>Ejemplos de cambiar caracteristicas por el identificador del elemento</h2>
+        <h2 id="para">Vamos a cambiar el color</h2>
+        <div class="caja4">
+            <div class="cajaS1" id="palabra1" onclick="changeColor1('blue','palabra1')">
+                <span>palabra</span></div>
+            <div class="cajaS1" id="palabra2" onclick="changeColor1('yellow','palabra2')">
+                <span>palabra</span></div>
+            <div class="cajaS1" id="palabra3" onclick="changeColor1('red','palabra3')">
+                <span>palabra</span></div>
+        </div>
+        <button onclick="changeColor('blue')">Azul</button>
+        <button onclick="changeColor('red')">Rojo</button>
+        <button onclick="changeColor('yellow')">Amarillo</button>
+    </div>
+    <div class="caja">
+        <h2>Ejemplos de cambiar el color de estilo del parrafo</h2>
+        <h2 id="para4">Vamos a cambiar texto</h2>
+        <p id="para3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            <span class="cursiva">facilis molestias</span>
+            explicabo dolore cupiditate, voluptates eos nemo, quo 
+            laboriosam repellat repellendus a possimus?
+        </p>
+        <button onclick="changeEstilo('caja1','para3')">Estilo 1</button>
+        <button onclick="changeEstilo('caja2','para3')">Estilo 2</button>
+        <button onclick="changeEstilo('caja3','para3')">Estilo 3</button>
+    </div>
+    <script src="appdemo.js"></script>
+</body>
+</html>

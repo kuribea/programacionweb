@@ -27,27 +27,57 @@ para calcularlo.
     rectángulo = b * h
     círculo = π * r2 (pi * radio al cuadrado)
 */
-const calcular2 = document.getElementById('calcular2');
-calcular2.addEventListener('click', calcularArea);
-function calcularArea() {
-  const forma = document.getElementById('figura').value;
-  let area;
-  if (forma === 'triangulo') 
-  {
-    const base = parseInt(document.getElementById('base').value);
-    const altura = parseInt(document.getElementById('altura').value);
-    area = (base * altura) / 2;
-  }else if (forma === 'rectangulo') 
-  {
-    const base = parseInt(document.getElementById('base').value);
-    const altura = parseInt(document.getElementById('altura').value);
-    area = base * altura;
-  }else if (forma === 'circulo') 
-  {
-    const radio = parseInt(document.getElementById('radio').value);
-    area = Math.PI * Math.pow(radio, 2);
+const figuraSelect = document.getElementById('figura');
+const inputContainer = document.getElementById('input-container');
+const calcularBtn = document.getElementById('calcular2');
+
+figuraSelect.addEventListener('change', mostrarInputs);
+calcularBtn.addEventListener('click', calcularArea);
+
+function mostrarInputs() {
+  const figura = figuraSelect.value;
+  inputContainer.innerHTML = '';
+
+  if (figura === 'triangulo') {
+    inputContainer.innerHTML = `
+      <label for="base">Base:</label>
+      <input type="number" id="base" required>
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura" required>
+    `;
+  } else if (figura === 'rectangulo') {
+    inputContainer.innerHTML = `
+      <label for="base">Base:</label>
+      <input type="number" id="base" required>
+      <label for="altura">Altura:</label>
+      <input type="number" id="altura" required>
+    `;
+  } else if (figura === 'circulo') {
+    inputContainer.innerHTML = `
+      <label for="radio">Radio:</label>
+      <input type="number" id="radio" required>
+    `;
   }
-  document.getElementById('resultado2').innerText = `El área es: ${area}`;
+}
+
+function calcularArea() {
+  const figura = figuraSelect.value;
+
+  if (figura === 'triangulo') {
+    const base = parseFloat(document.getElementById('base').value);
+    const altura = parseFloat(document.getElementById('altura').value);
+    const area = (base * altura) / 2;
+    console.log(`El área del triángulo es: ${area}`);
+  } else if (figura === 'rectangulo') {
+    const base = parseFloat(document.getElementById('base').value);
+    const altura = parseFloat(document.getElementById('altura').value);
+    const area = base * altura;
+    console.log(`El área del rectángulo es: ${area}`);
+  } else if (figura === 'circulo') {
+    const radio = parseFloat(document.getElementById('radio').value);
+    const area = Math.PI * radio ** 2;
+    console.log(`El área del círculo es: ${area}`);
+  }
 }
 
 
@@ -76,9 +106,9 @@ calcular3.addEventListener('click', () => {
             mensaje += i + ' - es impar <br>';
         }
     }
-
     resultado3.innerHTML = mensaje;
 });
+
 
 
 

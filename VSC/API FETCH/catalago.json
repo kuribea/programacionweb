@@ -1,0 +1,29 @@
+{
+    "catalogo":[
+        {
+            "producto":{
+                "referencia": "cta123",
+                "nombre":"Camiseta 123",
+                "colores":[
+                    "Azul",
+                    "Verde",
+                    "Rojo",
+                    "Naranja"
+                ],
+                "tallas":[
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL"
+                ],
+                "fotos":[
+                    "images/PAISAS.jpg"
+                ],
+                "precio":"12345",
+                "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                "fabricante":"fabricas contx"
+            }
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+.nombre{
+    position: absolute;
+width: 472px;
+height: 102px;
+left: 82px;
+top: 207px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #000000;
+}
+.email{
+    position: absolute;
+width: 452px;
+height: 44px;
+left: 82px;
+top: 334px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.git{
+    position: absolute;
+width: 408px;
+height: 64px;
+left: 82px;
+top: 393px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.gitlink{
+    position: absolute;
+width: 408px;
+height: 64px;
+left: 82px;
+top: 457px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.neo{
+    position: absolute;
+width: 408px;
+height: 64px;
+left: 82px;
+top: 521px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.neolink{
+    position: absolute;
+width: 408px;
+height: 64px;
+left: 82px;
+top: 585px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.taller{
+    position: absolute;
+width: 166px;
+height: 40px;
+left: 1118px;
+top: 329px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+
+}
+.diseño{
+    position: absolute;
+width: 147px;
+height: 54px;
+left: 1647px;
+top: 330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+}
+.consulta{
+    position: absolute;
+width: 224px;
+height: 43px;
+left: 1099px;
+top: 836px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+
+}
+.reto{
+    position: absolute;
+width: 129px;
+height: 40px;
+left: 1657px;
+top: 835px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+}
+.taller1{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 984px;
+top: 419px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.taller2{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 984px;
+top: 449px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.portafoliofigma{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 1506px;
+top: 413px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.info{
+    position: absolute;
+width: 408px;
+height: 64px;
+left: 82px;
+top: 649px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.hojavidafigma{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 1506px;
+top: 443px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+
+.infom{
+    position: absolute;
+width: 647px;
+height: 528px;
+left: 82px;
+top: 713px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.terminos{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 984px;
+top: 917px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.modelo{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 984px;
+top: 948px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.reto1{
+    position: absolute;
+width: 278px;
+height: 56px;
+left: 1506px;
+top: 917px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 39px;
+
+color: #000000;
+}
+.taller3{
+    position: absolute;
+    width: 278px;
+    height: 56px;
+    left: 984px;
+    top: 480px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
