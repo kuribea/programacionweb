@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;600&family=Roboto:wght@300;500;900&display=swap");
+
+/* font-family: 'Fira Sans',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+:root {
+    --color-fondo: black;
+    --color-encabezado: grey;
+    --color-enlaces: green;
+    --color-link: white;
+    --color-actividades: rgb(108, 117, 141);
+    --color-estados: blue;
+    --redondeado: 2rem;
+    --margen: 0.5rem;
+}
+
+body {
+    min-width: 380px;
+    max-width: 1440px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    color: var(--color-link);
+    padding: var(--margen);
+}
+
+.foto-estudiante {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.link {
+    display: block;
+    color: var(--color-link);
+    font-size: 1rem;
+    padding: var(--margen);
+}
+
+.circulo {
+    background-color: rgb(13, 29, 1);
+    border-radius: 100%;
+    padding: 0.8rem;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ficha-estudiante {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "encabezado-ficha" "actividades-ficha" "estados-ficha";
+    width: 370px;
+    background-color: var(--color-fondo);
+    border-radius: var(--redondeado);
+    padding: var(--margen);
+}
+
+.encabezado-ficha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nombre-estudiante nombre-estudiante fotografia" "enlaces enlaces fotografia";
+    grid-area: encabezado-ficha;
+    background-color: var(--color-encabezado);
+    border-radius: var(--redondeado);
+    padding: var(--margen);
+}
+
+.nombre-estudiante {
+    grid-area: nombre-estudiante;
+    padding: var(--margen);
+    font-size: 1.5rem;
+}
+
+.enlaces {
+    grid-area: enlaces;
+    border-radius: var(--redondeado);
+    background-color: var(--color-enlaces);
+}
+
+.fotografia {
+    grid-area: fotografia;
+    justify-self: center;
+    align-self: center;
+}
+
+.actividades-ficha {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "titulo-actividades" "encabezado-actividades" "estado-actividades";
+    grid-area: actividades-ficha;
+    background-color: var(--color-actividades);
+    border-radius: var(--redondeado);
+    padding: var(--margen);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.titulo-actividades {
+    justify-self: center;
+    grid-area: titulo-actividades;
+}
+
+.encabezado-actividades {
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr .5fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "item nombre estadouiux estadodev";
+    grid-area: encabezado-actividades;
+    border-bottom-style: dotted;
+}
+
+.item {
+    justify-self: center;
+    grid-area: item;
+}
+
+.nombre {
+    justify-self: center;
+    grid-area: nombre;
+}
+
+.estadouiux {
+    justify-self: center;
+    grid-area: estadouiux;
+}
+
+.estadodev {
+    justify-self: center;
+    grid-area: estadodev;
+}
+
+.estado-actividades {
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: .5fr 2fr .5fr .5fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "nro enlace porcentajeuiux porcentajedev";
+    grid-area: estado-actividades;
+    background-color: var(--color-actividades);
+    border-bottom-style: dotted;
+}
+
+.nro {
+    justify-self: center;
+    grid-area: nro;
+}
+
+.enlace {
+    justify-self: start;
+    grid-area: enlace;
+}
+
+.porcentajeuiux {
+    justify-self: center;
+    grid-area: porcentajeuiux;
+}
+
+.porcentajedev {
+    justify-self: center;
+    grid-area: porcentajedev;
+}
+
+.estados-ficha {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "estadohtml estadocss estadojs estadoui estadoux total";
+    grid-area: estados-ficha;
+    border-radius: var(--redondeado);
+    background-color: var(--color-estados);
+    padding: var(--margen);
+}
+
+.estadohtml {
+    justify-self: center;
+    grid-area: estadohtml;
+    text-align: center;
+}
+
+.estadocss {
+    justify-self: center;
+    grid-area: estadocss;
+    text-align: center;
+}
+
+.estadojs {
+    justify-self: center;
+    grid-area: estadojs;
+    text-align: center;
+}
+
+.estadoui {
+    justify-self: center;
+    grid-area: estadoui;
+    text-align: center;
+}
+
+.estadoux {
+    justify-self: center;
+    grid-area: estadoux;
+    text-align: center;
+}
+
+.total {
+    justify-self: center;
+    grid-area: total;
+    text-align: center;
+}
