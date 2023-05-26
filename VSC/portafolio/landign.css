@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=DynaPuff&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+body{
+    background: linear-gradient(45deg, #07beb8, #975512, 
+    #ff00ff, #4cee4c, #f74f4f, #4e4ee7, #8000ff);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'DynaPuff';
+}
+p{
+    text-align: justify;
+    font-family: 'DynaPuff';
+}

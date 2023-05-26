@@ -1,15 +1,15 @@
 .nombre{
     position: absolute;
-width: 472px;
-height: 102px;
-left: 82px;
-top: 207px;
+width: 189px;
+height: 61px;
+left: 62px;
+top: 102px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 40px;
-line-height: 48px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 }
@@ -17,86 +17,93 @@ color: #000000;
     position: absolute;
 width: 452px;
 height: 44px;
-left: 82px;
-top: 334px;
+left: 44px;
+top: 185px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
-font-size: 32px;
-line-height: 39px;
+font-size: 20px;
+line-height: 24px;
 
 color: #000000;
+
 
 }
 .git{
     position: absolute;
-width: 408px;
-height: 64px;
-left: 82px;
-top: 393px;
+width: 89px;
+height: 28px;
+left: 49px;
+top: 222px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
+
 
 }
 .gitlink{
     position: absolute;
-width: 408px;
-height: 64px;
-left: 82px;
-top: 457px;
+width: 89px;
+height: 28px;
+left: 138px;
+top: 239px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
-line-height: 39px;
+font-size: 20px;
+line-height: 24px;
 
 color: #000000;
 
 }
 .neo{
     position: absolute;
-width: 408px;
-height: 64px;
-left: 82px;
-top: 521px;
+width: 123px;
+height: 32px;
+left: 51px;
+top: 275px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
+
+
 }
 .neolink{
     position: absolute;
-width: 408px;
-height: 64px;
-left: 82px;
-top: 585px;
+width: 123px;
+height: 32px;
+left: 156px;
+top: 298px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
-line-height: 39px;
+font-size: 20px;
+line-height: 24px;
 
 color: #000000;
+
+
+
 }
 .taller{
     position: absolute;
 width: 166px;
 height: 40px;
-left: 1118px;
-top: 329px;
+left: 602px;
+top: 130px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -108,28 +115,26 @@ color: #870049;
 
 
 }
-.diseño{
+.diseno{
     position: absolute;
 width: 147px;
 height: 54px;
-left: 1647px;
-top: 330px;
+left: 1027px;
+top: 132px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
 font-size: 40px;
 line-height: 48px;
-
 color: #870049;
-
 }
 .consulta{
     position: absolute;
 width: 224px;
 height: 43px;
-left: 1099px;
-top: 836px;
+left: 583px;
+top: 505px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -138,6 +143,7 @@ font-size: 40px;
 line-height: 48px;
 
 color: #870049;
+
 
 
 }
@@ -145,8 +151,8 @@ color: #870049;
     position: absolute;
 width: 129px;
 height: 40px;
-left: 1657px;
-top: 835px;
+left: 1054px;
+top: 505px;
 
 font-family: 'Inter';
 font-style: normal;
@@ -156,173 +162,247 @@ line-height: 48px;
 
 color: #870049;
 
+
 }
-.taller1{
+.porta{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 984px;
-top: 419px;
+width: 281px;
+height: 36px;
+left: 542px;
+top: 225px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 
+
 }
-.taller2{
+.hoja{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 984px;
-top: 449px;
+width: 281px;
+height: 36px;
+left: 542px;
+top: 248px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
+
 
 }
 .portafoliofigma{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 1506px;
-top: 413px;
+width: 280px;
+height: 36px;
+left: 962px;
+top: 225px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 }
 .info{
     position: absolute;
-width: 408px;
-height: 64px;
-left: 82px;
-top: 649px;
+width: 158px;
+height: 33px;
+left: 174px;
+top: 331px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
+
 
 }
 .hojavidafigma{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 1506px;
-top: 443px;
+width: 280px;
+height: 36px;
+left: 962px;
+top: 248px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
+
 }
 
 .infom{
     position: absolute;
-width: 647px;
-height: 528px;
-left: 82px;
-top: 713px;
+width: 367px;
+height: 372px;
+left: 70px;
+top: 380px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 32px;
-line-height: 39px;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
 
 color: #000000;
+
 }
 .terminos{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 984px;
-top: 917px;
+width: 277px;
+height: 36px;
+left: 542px;
+top: 585px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 }
 .modelo{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 984px;
-top: 948px;
+width: 283px;
+height: 36px;
+left: 542px;
+top: 608px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 }
-.reto1{
+.news{
     position: absolute;
 width: 278px;
-height: 56px;
-left: 1506px;
-top: 917px;
+height: 36px;
+left: 962px;
+top: 585px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.java{
+    position: absolute;
+width: 286px;
+height: 36px;
+left: 542px;
+top: 271px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.sopadeletras{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 608px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.plantilla{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 631px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.landing{
+    position: absolute;
+width: 280px;
+height: 36px;
+left: 542px;
+top: 631px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 }
-.taller3{
-    position: absolute;
-    width: 278px;
-    height: 56px;
-    left: 984px;
-    top: 480px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 32px;
-    line-height: 39px;
-
-    color: #000000;
-}
-.reto2{
+.snackfigma{
     position: absolute;
-width: 278px;
-height: 56px;
-left: 1506px;
-top: 949px;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 271px;
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 300;
-font-size: 32px;
-line-height: 39px;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.snack{
+    position: absolute;
+width: 281px;
+height: 36px;
+left: 542px;
+top: 294px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
 
 color: #000000;
 }
