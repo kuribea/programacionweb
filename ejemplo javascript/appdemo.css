@@ -1,0 +1,52 @@
+.caja{
+    max-width: 1200px;
+    width: 90%;
+    background-color: violet;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.contador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    padding: 15px;
+    background-color: yellowgreen;
+}
+.caja1{
+    background-color: red;
+    color: yellow;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.caja2{
+    background-color: blue;
+    color: yellow;
+    margin: 1rem;
+    padding: 1.5rem;
+}
+.caja3{
+    font-size: larger;
+    font-weight: 800;
+    background-color: orange;
+    color: blueviolet;
+    margin: 1rem;
+    padding: 1rem;
+}
+.caja4{
+    display: flex;
+    background-color: aquamarine;
+    color: blueviolet;
+    margin: 0.25rem;
+    padding: 0.15rem;
+    border-radius: 1rem;
+    border-style: solid;
+}
+.cajaS1{
+    margin: 0.25rem;
+    padding: 0.25rem;
+    color: orange;
+    float: left;
+    border-radius: 10px;
+}
