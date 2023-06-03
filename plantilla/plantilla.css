@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,400&display=swap");
+* {
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.body {
+    font-size: 12px;
+}
+ 
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    background: rgb(2, 0, 36);
+    background: linear-gradient( 9deg, rgb(0, 0, 0) 0%, rgb(8, 50, 220) 27%, rgba(213, 5, 64, 0.729) 49%, rgba(0, 212, 255, 1) 100%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ficha-producto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    background-color: rgb(178, 10, 181);
+    width: 450px;
+    border-radius: 16px;
+    margin-top: 16px;
+    padding-left: 16px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.nombre {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.precio {
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 700;
+    color:chartreuse;
+}
+
+.cantidad {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color:yellow;
+}
+
+.descripcion {
+    font-size: 16px;
+    color: rgb(20, 25, 41);
+    margin: 16px;
+    margin-left: 0px;
+}
+
+.foto {
+    width: 50%;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+.btn {
+    font-size: 16px;
+    color: rgb(20, 25, 41);
+    margin: 16px;
+    font-size: 16px;
+    color: rgb(20, 25, 41);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 10rem;
+}
+
+.btn:hover {
+    background-color: rgba(161, 6, 43, 0.7287289915966386);
+    font-weight: 700;
+    color: white;
+}
+@media (max-width: 767px) {
+    .ficha-producto {
+      width: 100%;
+    }
+  
+    .foto {
+      width: 40%;
+    }
+  }
+  
+  

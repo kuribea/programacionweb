@@ -1,0 +1,497 @@
+.marco1{
+    position: absolute;
+    width: 422px;
+    height: 894px;
+    left: 40px;
+    top: 65px;
+    background-color: chartreuse;
+    border-radius: 30px;
+}
+.marco2{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 496px;
+    top: 159px;
+    background-color: forestgreen;
+    border-radius: 30px;
+}
+.cuadro1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 535px;
+    top: 221px;
+
+    background-color: crimson;
+}
+.cuadro2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 955px;
+    top: 221px;
+    background-color:hotpink;
+}
+.cuadro3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 535px;
+    top: 580px;
+    background-color: orange;
+}
+.cuadro4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 955px;
+    top: 580px;
+    background-color: tomato;
+}
+
+.fondo{
+    background-color:darkviolet;
+}
+.logoiue{
+    position: absolute;
+width: 275px;
+height: 136px;
+left: 797px;
+top: 11px;
+    background: url(imagenes/Document-removebg-preview.png);
+    }
+.foto{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 295px;
+    top: 79px;
+    background: url(imagenes/FOTO.jpeg);
+    border-radius: 360px;
+    }
+.nombre{
+    position: absolute;
+width: 189px;
+height: 61px;
+left: 62px;
+top: 102px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.email{
+    position: absolute;
+width: 452px;
+height: 44px;
+left: 44px;
+top: 185px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+}
+.git{
+    position: absolute;
+width: 89px;
+height: 28px;
+left: 49px;
+top: 222px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.gitlink{
+    position: absolute;
+width: 89px;
+height: 28px;
+left: 138px;
+top: 239px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.neo{
+    position: absolute;
+width: 123px;
+height: 32px;
+left: 51px;
+top: 275px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.neolink{
+    position: absolute;
+width: 123px;
+height: 32px;
+left: 156px;
+top: 298px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
+
+}
+.taller{
+    position: absolute;
+width: 166px;
+height: 40px;
+left: 602px;
+top: 130px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+
+}
+.diseno{
+    position: absolute;
+width: 147px;
+height: 54px;
+left: 1027px;
+top: 132px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+color: #870049;
+}
+.consulta{
+    position: absolute;
+width: 224px;
+height: 43px;
+left: 583px;
+top: 505px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+
+
+}
+.reto{
+    position: absolute;
+width: 129px;
+height: 40px;
+left: 1054px;
+top: 505px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 48px;
+
+color: #870049;
+
+
+}
+.porta{
+    position: absolute;
+width: 281px;
+height: 36px;
+left: 542px;
+top: 225px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.hoja{
+    position: absolute;
+width: 281px;
+height: 36px;
+left: 542px;
+top: 248px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.portafoliofigma{
+    position: absolute;
+width: 280px;
+height: 36px;
+left: 962px;
+top: 225px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.info{
+    position: absolute;
+width: 158px;
+height: 33px;
+left: 174px;
+top: 331px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.hojavidafigma{
+    position: absolute;
+width: 280px;
+height: 36px;
+left: 962px;
+top: 248px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+.infom{
+    position: absolute;
+width: 367px;
+height: 372px;
+left: 70px;
+top: 380px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #000000;
+
+}
+.terminos{
+    position: absolute;
+width: 277px;
+height: 36px;
+left: 542px;
+top: 585px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.modelo{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 542px;
+top: 608px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.news{
+    position: absolute;
+width: 278px;
+height: 36px;
+left: 962px;
+top: 585px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.java{
+    position: absolute;
+width: 286px;
+height: 36px;
+left: 542px;
+top: 271px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.sopadeletras{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 608px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+
+}
+.plantilla{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 631px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.landing{
+    position: absolute;
+width: 280px;
+height: 36px;
+left: 542px;
+top: 631px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.snackfigma{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 271px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.snack{
+    position: absolute;
+width: 281px;
+height: 36px;
+left: 542px;
+top: 294px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.flash{
+    position: absolute;
+width: 283px;
+height: 36px;
+left: 962px;
+top: 654px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
