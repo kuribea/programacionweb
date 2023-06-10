@@ -495,3 +495,34 @@ line-height: 29px;
 color: #000000;
 
 }
+.topo{
+    position: absolute;
+width: 281px;
+height: 36px;
+left: 51px;
+top: 828px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.nave{
+    position: absolute;
+width: 281px;
+height: 36px;
+left: 51px;
+top: 865px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
